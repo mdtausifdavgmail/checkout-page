@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <style>
+        body{
+            padding: 0;
+            display: flex;
+            margin: 0;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to bottom right,lightblue,aqua);
+        }
+        .container{
+            width: 75%;
+            padding-bottom: 1%;
+            display: flex;
+            height: 95%;
+            background: linear-gradient(to bottom right,snow,pink);
+            box-shadow: 0px 20px 25px;
+            border-radius: 20px;
+            justify-content: space-between;
+            border: 3px solid lightseagreen;
+        }
+        .split{
+            padding-bottom: 1.4%;
+            top: 0;height: 100%;
+            width: 40%;
+            z-index: 1;
+            border-radius: 16.1px;
+            border-right:groove; 
+            
+            overflow-x: hidden;
+            background:linear-gradient(to bottom right,snow,aqua);
+
+        }
+        .f{display: flex;
+            justify-content: space-between;
+            margin-top: 28px;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: large;
+            font-weight: 900;
+            font-style: italic;
+        }
+        .g{
+            margin-top: 28px;
+            margin-left: 5px;
+        }
+        .e{
+color: blue;
+font-size: x-large;
+font-weight: bold;
+        }
+        .h{
+            font-style: italic;
+            /* display: flex; */
+            align-items: center;
+            /* margin-right: 21%; */
+            margin-bottom: 450px;
+            font-size:x-large;
+            width: 60%;
+            margin-top: 5%;
+            font-weight: 900;
+
+        
+        }
+        .p{
+            display: flex;
+            align-items: center;
+            margin-left: 40%;
+
+        }
+        .i{
+display: flex;
+margin-top: 5%;
+margin-left: 15%;
+color: darkmagenta;
+font-size: medium;
+font-weight: bold;
+font-style: italic;
+        }
+        .q{
+            margin-left: 30%;
+
+        }
+        .bttn{
+        
+     margin-left: 20%;
+    width: 21%;
+    margin-top: 4%;
+    height: 15;
+    border-radius: 19px;
+    height: 30%;
+    cursor: pointer;
+    background-color: gainsboro;
+    border: aqua;
+    box-shadow: 5px 5px 5px rgb(228, 147, 161);
+        }
+        .bttn1{
+            margin-left: 5%;
+            box-shadow: 5px 5px 5px rgb(252, 160, 175);
+            width: 21%;
+            border: aliceblue;
+            cursor: pointer;
+    margin-top: 4%;
+    background-color: gainsboro;
+    height: 15;
+    border-radius: 19px;
+    height: 30%;
+        }
+        .j{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .b{
+            margin-left: 15%;
+
+        }
+        .t{
+            border: antiquewhite;
+            box-shadow: 5px 5px 5px rgb(226, 158, 170);
+            margin-left: 15%;
+            
+    width: 70%;
+    height: 25%;
+    border-radius: 12px;
+    
+        }
+        .d{
+            margin-left: 15%;
+            border: antiquewhite;
+            box-shadow: 0px 0px 5px;
+            width: 40%;
+            height: 25%;
+
+            border-radius: 12px;
+        }
+        .bttn2{
+            /* display: flex; */
+            justify-content: space-between;
+            margin-left: 15%;
+            border-style: groove;
+    width: 45%;
+    margin-top: 7%;
+    height: 15;
+    border-radius: 19px;
+    box-shadow: 5px 5px 10px palevioletred;
+    color: aquamarine;
+    height: 33%;
+    cursor: pointer;
+    border: darkblue;
+
+        }
+        .c{
+            margin: 3%;
+            color: black;
+            cursor: pointer;
+        }
+.b{
+    font-size: medium;
+    color: darkmagenta;
+    font-weight: bolder;
+    font-style: italic;
+}
+.t:hover{
+    box-shadow: 10px 10px 10px black;
+}
+.bttn:hover ,.bttn1:hover, .bttn2:hover{
+    background-color: aqua;
+}
+.x{
+    float: right;
+    /* padding-left: 7%; */
+    margin-right: 25%;
+    margin-top: 3%
+}
+.x:hover{
+    cursor: pointer;
+}
+.d:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px;
+}
+.b:hover{
+    cursor:default;
+}
+.e{
+    margin-left: 1% ;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="split"><img src="shoes2.png" alt=""width="154px" >
+        <p class="e">Blue Shoes</p>
+    <hr>
+    <div class="f"><label >Subtotal</label><label>$60.00</label></div>
+        
+        <p class="f">Discount for orders over $10.00(10% off)<label>-$6.00</label></p>
+        <div class="f">Shipping<label>Free</label></div>
+        <div class="f">TOTAL<label>$54.00</label></div>
+        <p class="g">Have a promotion coupon?<a href="#">reedem your coupon</a></p>
+        <p class="g"> Missing a product?<a href="#">Continue shopping</a></p>
+    
+    </div>
+<div  class="h"><label class="q" >Payment Datils</label> <hr class="j">
+<label class="i">Payment Method</label>
+<button class="bttn"><img src="credit.png" width="20%"> <label class="x">Card</label></button><button class="bttn1"><img src="paypal.png"width="20%"><label class="x">Pay pal</label> </button><hr class="j">
+<p class="b">Number on card</p><input class="t" type="text"placeholder="Enter name">
+<hr class="j">
+<p class="b">Card number</p><input class="t"type="password"placeholder="Enter number">
+<hr class="j">
+<p class="b">Expiration Date</p><input class="d" type="date">
+<hr class="j">
+<button class="bttn2"><label class="c">$60.00</label><label class="c">Pay</label></button>
+</div>
+
+</div>
+    
+</body>
+</html>
